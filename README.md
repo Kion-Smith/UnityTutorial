@@ -1,4 +1,4 @@
-# UnityTutorial
+# Unity in Flutter
 
 - Use unity 2019.3 or higher for ios and make sure you install the required plugins for andriod and mac see the 
 [pub.dev page](https://pub.dev/packages/flutter_unity_widget)
