@@ -12,5 +12,5 @@
 6. Go back to flutter you should have a unity export folder. Create a `unity-classes` folder and place all the files from `/unity export/lib/`
 7. Create a build.gradle and include `configurations.maybeCreate("default")` and `artifacts.add("default", file('unity-classes.jar'))`
 8. In the `/andriod/settings.gradle` include `include ":UnityExport"` and `project(":UnityExport").projectDir = file("./UnityExport")` and also add `include ':app', ':unity-classes'` [see this link](https://github.com/snowballdigital/flutter-unity-view-widget/issues/111) 
-9. In the `/andriod/app/build.gradle` make sure minsdk is = > 19
+9. In the `/andriod/app/build.gradle` make sure minsdk is >= 19
 10. Now the project should run
